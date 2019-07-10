@@ -5,12 +5,12 @@ var chips = {
   flavor: "Original Flavor",
   getNewFlavor: function(flavorNum) {
     if (flavorNum === 1) {
-      function upgradeFlavor() {
+      upgradeFlavor = () => {
         this.flavor = "Extreme Kickin'";
       }
       upgradeFlavor();
     } else {
-      function downgradeFlavor() {
+      downgradeFlavor = () => {
         this.flavor = "Sea Salt"
       }
       downgradeFlavor();
